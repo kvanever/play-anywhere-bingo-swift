@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF56D601D63826F00905B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF56D5F1D63826F00905B89 /* AppDelegate.swift */; };
+		CDF56D621D63826F00905B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF56D611D63826F00905B89 /* ViewController.swift */; };
+		CDF56D651D63826F00905B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF56D631D63826F00905B89 /* Main.storyboard */; };
+		CDF56D681D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF56D661D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodeld */; };
+		CDF56D6A1D63826F00905B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF56D691D63826F00905B89 /* Assets.xcassets */; };
+		CDF56D6D1D63826F00905B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF56D6B1D63826F00905B89 /* LaunchScreen.storyboard */; };
+		CDF56D781D63826F00905B89 /* Play_Anywhere_BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF56D771D63826F00905B89 /* Play_Anywhere_BingoTests.swift */; };
+		CDF56D831D63826F00905B89 /* Play_Anywhere_BingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF56D821D63826F00905B89 /* Play_Anywhere_BingoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF56D741D63826F00905B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF56D541D63826F00905B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF56D5B1D63826F00905B89;
+			remoteInfo = "Play Anywhere Bingo";
+		};
+		CDF56D7F1D63826F00905B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF56D541D63826F00905B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF56D5B1D63826F00905B89;
+			remoteInfo = "Play Anywhere Bingo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDF56D5C1D63826F00905B89 /* Play Anywhere Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Anywhere Bingo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF56D5F1D63826F00905B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF56D611D63826F00905B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDF56D641D63826F00905B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF56D671D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Play_Anywhere_Bingo.xcdatamodel; sourceTree = "<group>"; };
+		CDF56D691D63826F00905B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF56D6C1D63826F00905B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF56D6E1D63826F00905B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF56D731D63826F00905B89 /* Play Anywhere BingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Play Anywhere BingoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF56D771D63826F00905B89 /* Play_Anywhere_BingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_Anywhere_BingoTests.swift; sourceTree = "<group>"; };
+		CDF56D791D63826F00905B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF56D7E1D63826F00905B89 /* Play Anywhere BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Play Anywhere BingoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF56D821D63826F00905B89 /* Play_Anywhere_BingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_Anywhere_BingoUITests.swift; sourceTree = "<group>"; };
+		CDF56D841D63826F00905B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF56D591D63826F00905B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D701D63826F00905B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D7B1D63826F00905B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF56D531D63826F00905B89 = {
+			isa = PBXGroup;
+			children = (
+				CDF56D5E1D63826F00905B89 /* Play Anywhere Bingo */,
+				CDF56D761D63826F00905B89 /* Play Anywhere BingoTests */,
+				CDF56D811D63826F00905B89 /* Play Anywhere BingoUITests */,
+				CDF56D5D1D63826F00905B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF56D5D1D63826F00905B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF56D5C1D63826F00905B89 /* Play Anywhere Bingo.app */,
+				CDF56D731D63826F00905B89 /* Play Anywhere BingoTests.xctest */,
+				CDF56D7E1D63826F00905B89 /* Play Anywhere BingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF56D5E1D63826F00905B89 /* Play Anywhere Bingo */ = {
+			isa = PBXGroup;
+			children = (
+				CDF56D5F1D63826F00905B89 /* AppDelegate.swift */,
+				CDF56D611D63826F00905B89 /* ViewController.swift */,
+				CDF56D631D63826F00905B89 /* Main.storyboard */,
+				CDF56D691D63826F00905B89 /* Assets.xcassets */,
+				CDF56D6B1D63826F00905B89 /* LaunchScreen.storyboard */,
+				CDF56D6E1D63826F00905B89 /* Info.plist */,
+				CDF56D661D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodeld */,
+			);
+			path = "Play Anywhere Bingo";
+			sourceTree = "<group>";
+		};
+		CDF56D761D63826F00905B89 /* Play Anywhere BingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF56D771D63826F00905B89 /* Play_Anywhere_BingoTests.swift */,
+				CDF56D791D63826F00905B89 /* Info.plist */,
+			);
+			path = "Play Anywhere BingoTests";
+			sourceTree = "<group>";
+		};
+		CDF56D811D63826F00905B89 /* Play Anywhere BingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF56D821D63826F00905B89 /* Play_Anywhere_BingoUITests.swift */,
+				CDF56D841D63826F00905B89 /* Info.plist */,
+			);
+			path = "Play Anywhere BingoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF56D5B1D63826F00905B89 /* Play Anywhere Bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF56D871D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere Bingo" */;
+			buildPhases = (
+				CDF56D581D63826F00905B89 /* Sources */,
+				CDF56D591D63826F00905B89 /* Frameworks */,
+				CDF56D5A1D63826F00905B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play Anywhere Bingo";
+			productName = "Play Anywhere Bingo";
+			productReference = CDF56D5C1D63826F00905B89 /* Play Anywhere Bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF56D721D63826F00905B89 /* Play Anywhere BingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF56D8A1D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere BingoTests" */;
+			buildPhases = (
+				CDF56D6F1D63826F00905B89 /* Sources */,
+				CDF56D701D63826F00905B89 /* Frameworks */,
+				CDF56D711D63826F00905B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF56D751D63826F00905B89 /* PBXTargetDependency */,
+			);
+			name = "Play Anywhere BingoTests";
+			productName = "Play Anywhere BingoTests";
+			productReference = CDF56D731D63826F00905B89 /* Play Anywhere BingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF56D7D1D63826F00905B89 /* Play Anywhere BingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF56D8D1D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere BingoUITests" */;
+			buildPhases = (
+				CDF56D7A1D63826F00905B89 /* Sources */,
+				CDF56D7B1D63826F00905B89 /* Frameworks */,
+				CDF56D7C1D63826F00905B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF56D801D63826F00905B89 /* PBXTargetDependency */,
+			);
+			name = "Play Anywhere BingoUITests";
+			productName = "Play Anywhere BingoUITests";
+			productReference = CDF56D7E1D63826F00905B89 /* Play Anywhere BingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF56D541D63826F00905B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin VanEvery";
+				TargetAttributes = {
+					CDF56D5B1D63826F00905B89 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CDF56D721D63826F00905B89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CDF56D5B1D63826F00905B89;
+					};
+					CDF56D7D1D63826F00905B89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CDF56D5B1D63826F00905B89;
+					};
+				};
+			};
+			buildConfigurationList = CDF56D571D63826F00905B89 /* Build configuration list for PBXProject "Play Anywhere Bingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF56D531D63826F00905B89;
+			productRefGroup = CDF56D5D1D63826F00905B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF56D5B1D63826F00905B89 /* Play Anywhere Bingo */,
+				CDF56D721D63826F00905B89 /* Play Anywhere BingoTests */,
+				CDF56D7D1D63826F00905B89 /* Play Anywhere BingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF56D5A1D63826F00905B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF56D6D1D63826F00905B89 /* LaunchScreen.storyboard in Resources */,
+				CDF56D6A1D63826F00905B89 /* Assets.xcassets in Resources */,
+				CDF56D651D63826F00905B89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D711D63826F00905B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D7C1D63826F00905B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF56D581D63826F00905B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF56D621D63826F00905B89 /* ViewController.swift in Sources */,
+				CDF56D681D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodeld in Sources */,
+				CDF56D601D63826F00905B89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D6F1D63826F00905B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF56D781D63826F00905B89 /* Play_Anywhere_BingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56D7A1D63826F00905B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF56D831D63826F00905B89 /* Play_Anywhere_BingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF56D751D63826F00905B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF56D5B1D63826F00905B89 /* Play Anywhere Bingo */;
+			targetProxy = CDF56D741D63826F00905B89 /* PBXContainerItemProxy */;
+		};
+		CDF56D801D63826F00905B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF56D5B1D63826F00905B89 /* Play Anywhere Bingo */;
+			targetProxy = CDF56D7F1D63826F00905B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF56D631D63826F00905B89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF56D641D63826F00905B89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF56D6B1D63826F00905B89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF56D6C1D63826F00905B89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF56D851D63826F00905B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF56D861D63826F00905B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF56D881D63826F00905B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Play Anywhere Bingo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-Bingo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDF56D891D63826F00905B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Play Anywhere Bingo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-Bingo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDF56D8B1D63826F00905B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Play Anywhere BingoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-BingoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Play Anywhere Bingo.app/Play Anywhere Bingo";
+			};
+			name = Debug;
+		};
+		CDF56D8C1D63826F00905B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Play Anywhere BingoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-BingoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Play Anywhere Bingo.app/Play Anywhere Bingo";
+			};
+			name = Release;
+		};
+		CDF56D8E1D63826F00905B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Play Anywhere BingoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-BingoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Play Anywhere Bingo";
+			};
+			name = Debug;
+		};
+		CDF56D8F1D63826F00905B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Play Anywhere BingoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinvanevery.Play-Anywhere-BingoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Play Anywhere Bingo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF56D571D63826F00905B89 /* Build configuration list for PBXProject "Play Anywhere Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF56D851D63826F00905B89 /* Debug */,
+				CDF56D861D63826F00905B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF56D871D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF56D881D63826F00905B89 /* Debug */,
+				CDF56D891D63826F00905B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDF56D8A1D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere BingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF56D8B1D63826F00905B89 /* Debug */,
+				CDF56D8C1D63826F00905B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDF56D8D1D63826F00905B89 /* Build configuration list for PBXNativeTarget "Play Anywhere BingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF56D8E1D63826F00905B89 /* Debug */,
+				CDF56D8F1D63826F00905B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDF56D661D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDF56D671D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodel */,
+			);
+			currentVersion = CDF56D671D63826F00905B89 /* Play_Anywhere_Bingo.xcdatamodel */;
+			path = Play_Anywhere_Bingo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDF56D541D63826F00905B89 /* Project object */;
+}
